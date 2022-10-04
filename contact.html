@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+    <title>Portfolio | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <header class="main_header">
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                <a href="#"><img src="assets/img/logo.png" alt=""></a>
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a class="active" href="contact.html">Contact</a>
+            </div>
+          </div>
+    </header>
+    <main>
+        <section class="hero_about hero_contact">
+            <div class="about_con ">
+                <h2>Contact Me</h2>
+                <a href="index.html">Home /</a>
+                <a href="portfolio.html">Contact</a>
+            </div>
+        </section>
+        <section class="contact_sec">
+            <div class="contain">
+
+                <div class="wrapper">
+              
+                  <div class="form">
+                    <h4>GET IN TOUCH</h4>
+                    <h2 class="form-headline">Send me a message</h2>
+                    <form id="submit-form" action="form_submit.php" method="POST" enctype="multipart/form-data">
+                      <p>
+                        <input id="name" name="f_name" class="form-input" type="text" placeholder="First Name*">
+                        <small class="name-error"></small>
+                      </p>
+                      <p>
+                        <input id="l_name" name="l_name" class="form-input" type="text" placeholder="Last Name*">
+                        <small class="name-error"></small>
+                      </p>
+                      <p class="full-width">
+                        <input id="email" name="email" class="form-input" type="email" placeholder="Your Email*" required>
+                        <small></small>
+                      </p>
+                      <p class="full-width">
+                        <textarea  minlength="20" name="message" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+                        <small></small>
+                      </p>
+                      <p class="full-width">
+                        <button type="submit" name="contact_submit" class="submit-btn">Submit</button>
+                      </p>
+                    </form>
+                  </div>
+              
+                  <div class="contacts contact-wrapper">
+              
+                    <ul>
+                      <li>Contact Me! <span class="highlight-text-grey"></span></li>
+                      <span class="hightlight-contact-info">
+                        <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> Tariqahmed.work@gmail.com</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">647-274-0134</span></li>
+                      </span>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
+    <footer class="main_footer">
+        <div class="footer_logo">
+            <img src="assets/img/logo.png" alt="">
+            <p>My name is Tariq & I designed this site.</p>
+        </div>
+    </footer>
+    <div class="copyright">
+         <p>© 2022 Site by Tariq</p>
+    </div>
+</body>
+</html>
